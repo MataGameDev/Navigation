@@ -5,5 +5,10 @@ export default StyleSheet.create({
         flex: 1,
         alignItems: "center",
         justifyContent: "center",
+    },
+    text: {
+        marginBottom :100,
     }
+
+
 })
