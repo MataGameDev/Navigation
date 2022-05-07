@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button,View, Text} from 'react-native';
-import styles from './style';
+import styles from './styles';
 import Box from './components/Box';
 import Row from './components/Row';
 
@@ -10,25 +10,25 @@ function MenuScreen({ navigation}){
           <Row >
             <Box>
               <Button 
-              color = '#009688'
+              color = '#005688'
               title='Tarea 1'
-              onPress={() => navigation.push('Detalle', {id:1, descripcion: "Jugar Destiny 2"})}
+              onPress={() => navigation.push('Detalles', {id:1, descripcion: "Jugar Destiny 2"})}
               />
             </Box>
 
             <Box>
               <Button 
-               color = '#009688'
+               color = '#005688'
               title='Tarea 2'
-              onPress={() => navigation.push('Detalle', {id:2, descripcion: "Comprar Leche"})}
+              onPress={() => navigation.push('Detalles', {id:2, descripcion: "Comprar Leche"})}
               />
             </Box>
 
             <Box>
               <Button 
-              color = '#009688'
+              color = '#005688'
               title='Tarea 3'
-              onPress={() => navigation.push('Detalle', {id:3, descripcion: "Hacer la Tarea de Web"})}
+              onPress={() => navigation.push('Detalles', {id:3, descripcion: "Hacer la Tarea de Web"})}
               />
             </Box>
           </Row>
@@ -36,25 +36,25 @@ function MenuScreen({ navigation}){
         <Row >
             <Box>
               <Button 
-               color = '#009688'
+               color = '#005688'
               title='Tarea 4'
-              onPress={() => navigation.push('Detalle', {id:4, descripcion: "Terminar el Codigo de Matematicas"})}
+              onPress={() => navigation.push('Detalles', {id:4, descripcion: "Terminar el Codigo de Matematicas"})}
               />
             </Box>
 
           <Box>
             <Button 
-             color = '#009688'
+             color = '#005688'
             title='Tarea 5'
-            onPress={() => navigation.push('Detalle', {id:5, descripcion: "Terminar de Pintar"})}
+            onPress={() => navigation.push('Detalles', {id:5, descripcion: "Terminar de Pintar"})}
             />
           </Box>
 
           <Box>
             <Button 
-             color = '#009688'
+             color = '#005688'
             title='Tarea 6'
-            onPress={() => navigation.push('Detalle', {id:6, descripcion: "Alimentar al Gato"})}
+            onPress={() => navigation.push('Detalles', {id:6, descripcion: "Alimentar al Gato"})}
             />
           </Box>
         </Row>
@@ -62,25 +62,25 @@ function MenuScreen({ navigation}){
         <Row>  
           <Box>
             <Button 
-             color = '#009688'
+             color = '#005688'
             title='Tarea 7'
-            onPress={() => navigation.push('Detalle', {id:7, descripcion: "Terminar el GDD"})}
+            onPress={() => navigation.push('Detalles', {id:7, descripcion: "Terminar el GDD"})}
             />
           </Box>
 
           <Box>
             <Button 
-             color = '#009688'
+             color = '#005688'
             title='Tarea 8'
-            onPress={() => navigation.push('Detalle', {id:8, descripcion: "Tender la cama"})}
+            onPress={() => navigation.push('Detalles', {id:8, descripcion: "Tender la cama"})}
             />
           </Box>
 
           <Box>
             <Button 
-            color = '#009688'
+            color = '#005688'
             title='Tarea 9'
-            onPress={() => navigation.push('Detalle', {id:3, descripcion: "Limpiar la habitacion"})}
+            onPress={() => navigation.push('Detalles', {id:3, descripcion: "Limpiar la habitacion"})}
             />
           </Box>
         </Row>
@@ -105,3 +105,4 @@ function MenuScreen({ navigation}){
 
 
 export default MenuScreen;
+
