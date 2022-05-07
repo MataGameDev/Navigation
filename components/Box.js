@@ -1,7 +1,7 @@
 import React from 'react'
 import {Text, View} from 'react-native';
 import PropTypes from 'prop-types'
-import styles from '../style';
+import styles from '../styles';
 
 
 const Box = ({children}) => {
