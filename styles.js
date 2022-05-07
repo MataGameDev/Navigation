@@ -5,7 +5,7 @@ export default StyleSheet.create({
         flex: 1,
         alignItems: "center",
         justifyContent: "center",
-        backgroundColor: "white",
+        backgroundColor: "#FFFFFF",
     },
 
     text: {marginBottom: 10,},
@@ -16,13 +16,12 @@ export default StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         borderWidth: 1,
-        backgroundColor: '#2599CD',
+        backgroundColor: '#49B2FC',
         margin: 5,
         
     },
     boxText: {
-        color: 'darkslategray',
-        fontWeight: 'bold',
+        color: '#E700FE',
     },
     row:{
         flex: 1,
@@ -34,10 +33,10 @@ export default StyleSheet.create({
         justifyContent: 'space-between',
         alignItems: 'center',
         flexDirection: 'row',
-        backgroundColor: '#2599CD',
+        backgroundColor: '#FFFFFF',
         borderWidth: 1,
-        margin: 10,
-        padding: 15,
+        margin: 12,
+        padding: 16,
 
         width: 359,
         height: 100,
@@ -49,7 +48,7 @@ export default StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-around',
         alignItems: 'center',
-        backgroundColor: '#43a047',
+        backgroundColor: '#28CD25',
 
         margin: 20,
         padding: 5,
@@ -58,7 +57,7 @@ export default StyleSheet.create({
         height: 100,
     },
     titulo:{
-        color: '#386C83',
+        color: '#FFFFFF',
         fontSize: 80,
         fontWeight: "bold",
       
@@ -71,3 +70,4 @@ export default StyleSheet.create({
         bottom: 30
     }
 })
+
