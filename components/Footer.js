@@ -16,5 +16,4 @@ function Footer({navigation}){
         </View>
     )
 }
-
 export default Footer;
