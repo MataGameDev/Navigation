@@ -12,7 +12,7 @@ function MenuScreen({ navigation}){
               <Button 
               color = '#009688'
               title='Tarea 1'
-              onPress={() => navigation.push('Detalle', {id:1, description: "hacer tarea"})}
+              onPress={() => navigation.push('Detalle', {id:1, descripcion: "Jugar Destiny 2"})}
               />
             </Box>
 
@@ -20,7 +20,7 @@ function MenuScreen({ navigation}){
               <Button 
                color = '#009688'
               title='Tarea 2'
-              onPress={() => navigation.push('Detalle', {id:2, description: "hacer mandado"})}
+              onPress={() => navigation.push('Detalle', {id:2, descripcion: "Comprar Leche"})}
               />
             </Box>
 
@@ -28,7 +28,7 @@ function MenuScreen({ navigation}){
               <Button 
               color = '#009688'
               title='Tarea 3'
-              onPress={() => navigation.push('Detalle', {id:3, description: "hacer comida"})}
+              onPress={() => navigation.push('Detalle', {id:3, descripcion: "Hacer la Tarea de Web"})}
               />
             </Box>
           </Row>
@@ -38,7 +38,7 @@ function MenuScreen({ navigation}){
               <Button 
                color = '#009688'
               title='Tarea 4'
-              onPress={() => navigation.push('Detalle', {id:4, description: "estudiar"})}
+              onPress={() => navigation.push('Detalle', {id:4, descripcion: "Terminar el Codigo de Matematicas"})}
               />
             </Box>
 
@@ -46,7 +46,7 @@ function MenuScreen({ navigation}){
             <Button 
              color = '#009688'
             title='Tarea 5'
-            onPress={() => navigation.push('Detalle', {id:5, description: "hacer ejercicio"})}
+            onPress={() => navigation.push('Detalle', {id:5, descripcion: "Terminar de Pintar"})}
             />
           </Box>
 
@@ -54,7 +54,7 @@ function MenuScreen({ navigation}){
             <Button 
              color = '#009688'
             title='Tarea 6'
-            onPress={() => navigation.push('Detalle', {id:6, description: "sacar la basura"})}
+            onPress={() => navigation.push('Detalle', {id:6, descripcion: "Alimentar al Gato"})}
             />
           </Box>
         </Row>
@@ -64,7 +64,7 @@ function MenuScreen({ navigation}){
             <Button 
              color = '#009688'
             title='Tarea 7'
-            onPress={() => navigation.push('Detalle', {id:7, description: "pasear al perro"})}
+            onPress={() => navigation.push('Detalle', {id:7, descripcion: "Terminar el GDD"})}
             />
           </Box>
 
@@ -72,7 +72,7 @@ function MenuScreen({ navigation}){
             <Button 
              color = '#009688'
             title='Tarea 8'
-            onPress={() => navigation.push('Detalle', {id:8, description: "limpiar el cuarto"})}
+            onPress={() => navigation.push('Detalle', {id:8, descripcion: "Tender la cama"})}
             />
           </Box>
 
@@ -80,7 +80,7 @@ function MenuScreen({ navigation}){
             <Button 
             color = '#009688'
             title='Tarea 9'
-            onPress={() => navigation.push('Detalle', {id:3, description: "lavar la ropa"})}
+            onPress={() => navigation.push('Detalle', {id:3, descripcion: "Limpiar la habitacion"})}
             />
           </Box>
         </Row>
